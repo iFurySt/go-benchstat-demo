@@ -1,0 +1,32 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ifuryst/go-benchstat-demo
+cpu: Apple M3 Pro
+       │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+       │                      sec/op                      │          sec/op            vs base               │
+Biz-12                                        914.4n ± 2%                 881.4n ± 4%  -3.61% (p=0.007 n=10)
+
+       │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+       │                       B/op                       │             B/op              vs base            │
+Biz-12                                         320.0 ± 0%                     320.0 ± 0%  ~ (p=1.000 n=10) ¹
+¹ all samples are equal
+
+       │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+       │                    allocs/op                     │          allocs/op            vs base            │
+Biz-12                                         13.00 ± 0%                     13.00 ± 0%  ~ (p=1.000 n=10) ¹
+¹ all samples are equal
+
+pkg: github.com/ifuryst/go-benchstat-demo/pkg/util
+           │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+           │                      sec/op                      │          sec/op           vs base                │
+Include-12                                       20.095n ± 2%                1.881n ± 1%  -90.64% (p=0.000 n=10)
+
+           │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+           │                       B/op                       │             B/op              vs base            │
+Include-12                                         0.000 ± 0%                     0.000 ± 0%  ~ (p=1.000 n=10) ¹
+¹ all samples are equal
+
+           │ old-3d43a88772ed24c341f60e41122828fe38594870.txt │ new-a7d9ff564525bee68aedcb03a1bf9ef5f53b3a79.txt │
+           │                    allocs/op                     │          allocs/op            vs base            │
+Include-12                                         0.000 ± 0%                     0.000 ± 0%  ~ (p=1.000 n=10) ¹
+¹ all samples are equal

@@ -1,0 +1,32 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ifuryst/go-benchstat-demo
+cpu: Apple M3 Pro
+BenchmarkBiz-12    	 1270784	      1111 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1315480	       918.5 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1330947	       904.2 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1310281	       907.1 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1317714	       905.4 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1314860	       914.9 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1324248	       929.8 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1304838	       914.2 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1315310	       914.5 ns/op	     320 B/op	      13 allocs/op
+BenchmarkBiz-12    	 1320344	       909.3 ns/op	     320 B/op	      13 allocs/op
+PASS
+ok  	github.com/ifuryst/go-benchstat-demo	21.747s
+goos: darwin
+goarch: arm64
+pkg: github.com/ifuryst/go-benchstat-demo/pkg/util
+cpu: Apple M3 Pro
+BenchmarkInclude-12    	59509178	        20.05 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	62101489	        20.07 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	60257476	        20.54 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	58836750	        20.12 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	59761825	        19.98 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	59209551	        20.13 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	57925890	        20.01 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	59705204	        20.01 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	60206456	        20.58 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInclude-12    	58050939	        20.41 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	github.com/ifuryst/go-benchstat-demo/pkg/util	13.166s
