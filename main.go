@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	mockBiz()
+}
+
+func mockBiz() {
 	ss := []string{"a", "b", "c"}
 	s1 := "a"
 	isInclude := util.Includes(ss, s1)
